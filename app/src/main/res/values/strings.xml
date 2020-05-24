@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">L32</string>
     <string name="download_and_save_image_from_url">Download and Save Image From URL</string>
-    <string name="load_image_from_disk">Load Image From Disk</string>
+    <string name="load_image_from_disk">Load Image From Disk and convert file</string>
     <string name="delete_image_from_disk">Delete Image From Disk</string>
     <string name="delete_all_file">Delete all file</string>
 </resources>
