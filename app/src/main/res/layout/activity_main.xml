@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_download_from_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/download_and_save_image_from_url"
+        android:onClick="asyncDownloadSaveImageFromUrl"/>
+    <Button
+        android:id="@+id/btn_load_from_disk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/load_image_from_disk"
+        android:onClick="loadImageFromDisk"/>
+    <Button
+        android:id="@+id/btn_delete_from_disk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_image_from_disk"
+        android:onClick="deleteImageFromDisk"/>
+
+    <TextView
+        android:id="@+id/tv_log"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
